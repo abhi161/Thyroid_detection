@@ -1,0 +1,66 @@
+2022-07-29/14:02:42		Start of Training
+2022-07-29/14:02:42		Entered the get_data method of the Data_Getter class
+2022-07-29/14:02:42		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-29/14:02:43		Entered the separate_label_feature method of the Preprocessor class
+2022-07-29/14:02:43		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-29/14:02:43		Entered the is_null_present method of the Preprocessor class
+2022-07-29/14:02:43		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-29/14:02:43		Entered the impute_missing_values method of the Preprocessor class
+2022-07-29/14:04:18		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-29/14:04:18		Unsuccessful End of Training
+2022-07-29/14:13:07		Start of Training
+2022-07-29/14:13:07		Entered the get_data method of the Data_Getter class
+2022-07-29/14:13:07		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-29/14:13:08		Entered the separate_label_feature method of the Preprocessor class
+2022-07-29/14:13:08		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-29/14:13:08		Entered the is_null_present method of the Preprocessor class
+2022-07-29/14:13:08		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-29/14:13:08		Entered the impute_missing_values method of the Preprocessor class
+2022-07-29/14:14:49		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-29/14:14:49		Exception occured in handle_imbalance method of the Preprocessor class. Exception message:  'RandomOverSampler' object has no attribute 'fit_sample'
+2022-07-29/14:14:49		Imbalance data handling failed. Exited the handle_imbalance method of the Preprocessor class
+2022-07-29/14:14:49		Unsuccessful End of Training
+2022-07-29/14:22:41		Start of Training
+2022-07-29/14:22:41		Entered the get_data method of the Data_Getter class
+2022-07-29/14:22:42		Data Load Successful.Exited the get_data method of the Data_Getter class
+2022-07-29/14:22:42		Entered the separate_label_feature method of the Preprocessor class
+2022-07-29/14:22:42		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-07-29/14:22:42		Entered the is_null_present method of the Preprocessor class
+2022-07-29/14:22:43		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-07-29/14:22:43		Entered the impute_missing_values method of the Preprocessor class
+2022-07-29/14:24:34		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2022-07-29/14:24:34		Handle Imbalance data Successful. Exited handle_imbalance method of the Preprocessor class
+2022-07-29/14:24:34		Entered the elbow_plot method of the KMeansClustering class
+2022-07-29/14:25:32		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2022-07-29/14:25:32		Entered the create_clusters method of the KMeansClustering class
+2022-07-29/14:25:35		Entered the save_model method of the File_Operation class
+2022-07-29/14:25:35		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2022-07-29/14:25:35		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2022-07-29/14:25:35		Entered the get_best_model method of the Model_Finder class
+2022-07-29/14:25:35		Entered the get_best_params_for_Ensembled_KNN method of the Model_Finder class
+2022-07-29/14:53:54		KNN best params: {'algorithm': 'brute', 'leaf_size': 10, 'n_neighbors': 5, 'p': 1}. Exited the KNN method of the Model_Finder class
+2022-07-29/14:54:08		AUC for knn:0.9992347596980847
+2022-07-29/14:54:08		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-07-29/14:55:41		Random Forest best params: {'criterion': 'entropy', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 10}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-07-29/14:55:41		AUC for RF:0.8981586967748267
+2022-07-29/14:55:41		Entered the save_model method of the File_Operation class
+2022-07-29/14:55:41		Model File KNN2 saved. Exited the save_model method of the Model_Finder class
+2022-07-29/14:55:41		Entered the get_best_model method of the Model_Finder class
+2022-07-29/14:55:41		Entered the get_best_params_for_Ensembled_KNN method of the Model_Finder class
+2022-07-29/19:18:24		KNN best params: {'algorithm': 'ball_tree', 'leaf_size': 10, 'n_neighbors': 4, 'p': 1}. Exited the KNN method of the Model_Finder class
+2022-07-29/19:18:39		AUC for knn:0.9999870878776145
+2022-07-29/19:18:39		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-07-29/19:21:39		Random Forest best params: {'criterion': 'entropy', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 10}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-07-29/19:21:39		AUC for RF:0.9811800381877979
+2022-07-29/19:21:39		Entered the save_model method of the File_Operation class
+2022-07-29/19:21:39		Model File KNN1 saved. Exited the save_model method of the Model_Finder class
+2022-07-29/19:21:39		Entered the get_best_model method of the Model_Finder class
+2022-07-29/19:21:39		Entered the get_best_params_for_Ensembled_KNN method of the Model_Finder class
+2022-07-29/20:54:55		KNN best params: {'algorithm': 'ball_tree', 'leaf_size': 10, 'n_neighbors': 4, 'p': 1}. Exited the KNN method of the Model_Finder class
+2022-07-29/20:54:57		AUC for knn:1.0
+2022-07-29/20:54:57		Entered the get_best_params_for_random_forest method of the Model_Finder class
+2022-07-29/20:57:38		Random Forest best params: {'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'n_estimators': 130}. Exited the get_best_params_for_random_forest method of the Model_Finder class
+2022-07-29/20:57:39		AUC for RF:0.8788280676794674
+2022-07-29/20:57:39		Entered the save_model method of the File_Operation class
+2022-07-29/20:57:39		Model File KNN0 saved. Exited the save_model method of the Model_Finder class
+2022-07-29/20:57:39		Successful End of Training
