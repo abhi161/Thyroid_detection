@@ -30,5 +30,3 @@ The primary objective of Thyroid Detection is to assist hospitals in streamlinin
 - Continuous monitoring and updating of models for improved accuracy.
 - Expansion to include prediction of additional medical conditions for comprehensive patient assessment.
 
-### Conclusion
-Thyroid Detection is a powerful tool designed to enhance the efficiency of hospital operations and improve patient care through accurate prediction of thyroid disorders. By leveraging machine learning techniques and a robust end-to-end pipeline, this project aims to revolutionize healthcare management in thyroid-related cases.
